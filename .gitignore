@@ -1,0 +1,45 @@
+# Ignorowanie plików środowiska wirtualnego
+venv/
+.env
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Ignorowanie zależności Pythona
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorowanie ustawień edytorów
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignorowanie baz wektorowych (ChromaDB, inne bazy)
+chroma_db/
+
+# Ignorowanie logów
+logs/
+*.log
+
+# Ignorowanie plików FastAPI (np. cache)
+instance/
+*.sqlite
+*.db
+
+# Ignorowanie plików systemowych
+.DS_Store
+Thumbs.db
+
+# Ignorowanie katalogu node_modules dla React
+frontend/node_modules/
+frontend/.next/
+frontend/build/
+
+# Ignorowanie plików konfiguracyjnych zależności JS
+frontend/package-lock.json
+frontend/yarn.lock
+
+# Ignorowanie wyjścia aplikacji
+dist/
+build/

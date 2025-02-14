@@ -1,0 +1,1 @@
+context = """Purpose: The goal of this agent is to assist users. It Should be able to answer questions about Jakub Zimny, with use of given tools"""
